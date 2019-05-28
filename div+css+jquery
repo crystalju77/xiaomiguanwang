@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        padding: 0px;
+        margin:0px;
+        list-style-type:none;
+        text-decoration: none;
+    }
+    
+    #banner{
+        width: 1230px;
+        height: 460px;
+        background:hotpink;
+        margin:100px auto;
+    }
+    .nav{
+        width:235px;
+        height: 460px;
+        background:rgba(62, 122, 27, 0.61) 
+    }
+    .nav-list{
+        width:235px;
+        height: 420px;
+        padding: 35px 0px;
+        position: relative;
+
+    }
+    .nav-list-item-first{
+        width: 100%;
+        height: 42px;
+       
+    }
+    .nav-list-item-first:hover{
+        background: chocolate  
+    }
+    .nav-list-item-first:hover .show-warp{
+        display: block;
+    }
+    .first-link{
+        width:100%;
+        height:42px;
+        display: block;
+        color:greenyellow;
+        font-size: 14px;
+        text-indent: 30px;
+        line-height: 42px;
+    }
+    .show-warp{
+        width: 400px;
+        height: 460px;
+        background:green;
+        position: absolute;
+        top: 0px;
+        left: 235px;
+        display: none;
+        box-shadow: 0px 0px 40px #131212cc
+    }
+    .warp-item{
+        position: absolute;
+        top: 20px;
+        left: 27px;
+    }
+    .shop-item{
+        width: 265px;
+        height: 76px;
+        position: absolute;
+
+        
+    }
+    .shop-item img{
+        vertical-align: middle;
+        margin: 0 10px 0 5px;
+        
+       
+    }
+</style>
+<body>
+    <div id="banner">
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item-first">
+                    <a href="javascript:;" class="first-link">手机 电话</a>
+                    <div class="show-warp">
+                        <ul class="warp-item">
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                            <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                            <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                    
+                        </ul>
+                    </div>
+                </li>
+               <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">电视 盒子</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                                                              <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                             </ul>    
+                        </div>  
+                </li>
+                <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">笔记本 平板</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                                                                                                      
+                            </ul>    
+                        </div> 
+                </li>
+                <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">加点 插线板</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                            </ul>
+                        </div>                    
+                </li>
+                <li class="nav-list-item-first"> 
+                    <a href="javascript:;"class="first-link">出行 穿戴</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                            </ul>
+                        </div>        
+                </li>
+                <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">智能 路由器</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                                               
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                            </ul>
+                        </div>                   
+                </li>
+                <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">电源 配件</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                            </ul>
+                        </div>                   
+                </li>
+                <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">健康 儿童</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                                                                                                      
+                            </ul>
+                        </div>                    
+                </li>
+                <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">耳机 音响</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>                                                                                       
+                            </ul>
+                        </div>                   
+                </li>
+                <li class="nav-list-item-first">
+                    <a href="javascript:;"class="first-link">生活 箱包</a>
+                        <div class="show-warp">
+                            <ul class="warp-item">
+                                <li class="shop-item"><img src="img/ball.png" alt="" width="40px" height="40px">球</li>
+                                <li class="shop-item"><img src="img/plane.png" alt=""width="40px" height="40px">飞机</li>                           
+                                                                                                                      
+                            </ul>
+                        </div>   
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(".show-warp").each(function(){
+            var cli = $(this).find(".shop-item");//保存需要的节点
+            var width = cli.width();
+            var height = cli.height();
+            var length = cli.length;
+            var col = Math.ceil(length/6);
+            $(this).width(width*col);
+
+            cli.each(function(i){
+                var x = Math.floor(i/6);
+                var y = i%6;
+
+                $(this) .css({
+                    left: x*width + "px",
+                    top: y*height + "px"
+                });
+            });
+
+        });
+        
+    </script>
+    
+</body>
+</html>
